@@ -1,1 +1,1 @@
-DLib bindings for Covariant Script
+This project is DLib bindings for Covariant Script
