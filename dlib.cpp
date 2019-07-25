@@ -1,7 +1,7 @@
 // DLib
-#include "dlib/image_processing/frontal_face_detector.h"
-#include "dlib/image_transforms.h"
-#include "dlib/image_io.h"
+#include <dlib/image_processing/frontal_face_detector.h>
+#include <dlib/image_transforms.h>
+#include <dlib/image_io.h>
 // CovScript
 #include <covscript/dll.hpp>
 #include <covscript/cni.hpp>

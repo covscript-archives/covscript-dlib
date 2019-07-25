@@ -7,8 +7,7 @@ dlib.pyramid_up(img)
 var dets=dlib.frontal_face_detect(img)
 # Detect Face
 if dets.empty()
-    throw runtime.exception("No face detected")
-end
+    throw runtime.exception("No face detected"); end
 var app=imgui.window_application(1100, 500, "Test")
 var img_list=new array
 foreach it in dets
@@ -24,8 +23,7 @@ while !app.is_closed()
     for i=0, i<img_list.size(), ++i
         imgui.image(img_list.at(i), imgui.vec2(200, 200))
         if i%5!=4
-            imgui.same_line()
-        end
+            imgui.same_line(); end
     end
     imgui.set_window_size(imgui.vec2(app.get_window_width(), app.get_window_height()))
     imgui.set_window_pos(imgui.vec2(0,0))
