@@ -26,7 +26,7 @@ else ()
     set(CMAKE_CXX_FLAGS "-fPIC -O3")
 endif ()
 
-find_package(dlib REQUIRED)
+add_subdirectory(third-party/dlib)
 
 add_library(dlib_ext SHARED dlib.cpp)
 

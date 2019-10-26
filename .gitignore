@@ -32,3 +32,9 @@
 *.app
 
 build/
+third-party/
+
+.DS_Store
+cmake-build-*/
+.idea/
+
